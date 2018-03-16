@@ -1,0 +1,31 @@
+#calendar {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#calendar table {
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#calendar td {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+}
+
+#calendar tr:nth-child(1) td {
+    border-bottom: 2px solid gray !important;
+}
+
+#calendar td:nth-child(1) {
+    color: red;
+    padding-left: 10px;
+}
+#calendar td:nth-child(7) {
+    color: red;
+    padding-right: 10px;
+}
+
